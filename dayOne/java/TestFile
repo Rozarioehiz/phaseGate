@@ -1,0 +1,9 @@
+Javac -cp "junit-platform-console-standalone -1.13.4 jar:out" -d out PhaseGateTest.java PhaseGate.java
+
+
+java-cp "junit-platform-console-standalone-1.13.4 jar:out"org.junit.plateform.console.consolelauncher--scan.class path
+
+
+import org.junit.jupiter.api.Test
+
+import static org.junit.jupiter.api.Assertions.assertEquals
