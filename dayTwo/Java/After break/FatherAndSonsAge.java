@@ -19,8 +19,8 @@ public  class FatherAndSonsAge{
 
      public static void main(String [] args){
 
-            int fathersAge= 30;
-            int sonsAge = 20;
+            int fathersAge= 60;
+            int sonsAge = 15;
 
 
     System.out.print("the father was twice his sons" + fatherAges(fathersAge, sonsAge));
@@ -28,7 +28,7 @@ public  class FatherAndSonsAge{
          int fathersAge= 60;
             int sonsAge = 20; 
 
-    System.out.print("father was" + fatherAges(fathersAge, sonsAge))
+    System.out.print("father will be " + fatherAges(fathersAge, sonsAge))
 
 }
 

@@ -1,7 +1,7 @@
-Javac -cp "junit-platform-console-standalone -1.13.4 jar:out" -d out PhaseGateTest.java PhaseGate.java
+javac -cp "junit-platform-console-standalone-1.13.4.jar:out" -d out TransactionAppTest.java TransactionApp.java
 
+java -cp "junit-platform-console-standalone-1.13.4.jar:out" org.junit.platform.console.ConsoleLauncher --scan-class-path
 
-java-cp "junit-platform-console-standalone-1.13.4 jar:out"org.junit.plateform.console.consolelauncher--scan.class path
 
 
 import org.junit.jupiter.api.Test
