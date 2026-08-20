@@ -15,36 +15,42 @@ import java.util.Scanner;
         public static double addingAmountToBalance(){
           
      
-
     return 100 ;
 
 }
 
   
+    public staic void main(String [] args){
 
+    Scanner input = new scanner(System.in);
 
+    while(true)
 
-//    public staic void main(String [] args){
-//
-//    Scanner input = new scanner(System.in);
-//
-//  String welcome = """
-//
-//    welcome to Transaction log
-//
-//    1. Deposit
-//    2. Withdraw
-//    3. Show Transaction
-//    4. exit
-//    
-//        """
+    String welcome = """
+
+    welcome to Transaction log
+
+    1. Deposit
+    2. Withdraw
+    3. Show Transaction
+    4. exit
     
-//   switch()
-//
-//        case 1:
-//            system.out.print("Enter Your choice")
-//    
-//
-//}
+        """;
+    System.out.println("Enter Menuchoice");
+
+   switch(Menuchoice)
+
+        case 1:
+            System.out.print("Deposit");
+                break;
+
+        case 2:
+
+            System.out.print("Withdraw");
+
+                    break
+    
+
+}
 }
 //
