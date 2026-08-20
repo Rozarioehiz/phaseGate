@@ -40,7 +40,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //            when
 
-    double actualAccountBalance = TransactionApp.firstAmountDeposited(100.0); 
+    double actualAccountBalance = TransactionApp.firstAmountDeposited(Balance); 
 
     double expectedAccountBalance = 100.0;
    
